@@ -1,0 +1,40 @@
+
+Project 3: Wiretap
+-----------------------
+
+Name:Vraj Parikh
+uname:parikhv
+
+Name:Marshal Patel
+uname:marshalp
+
+------------------------
+The final development of the Wiretap includes the following files.
+
+Included Files and Purpose:
+
+wiretap.cpp   :   Main file  from where all the callback routines are invoked. Additionally, consists of methods for parsing input.
+callback.cpp  :   Contains all the callback functions to extract data for summary, link layer, network layer and transport layer.
+
+================================================================
+Tasks Accomplished:
+
+1. The output is written to a text file "wiretap.txt".
+
+================================================================
+
+Steps to compile and run:
+
+1. Navigate to the directory where the makefile and the source code file is present. Make sure they are present at the same
+   location.
+
+2. Type make and hit enter.
+
+3. If no error is displayed, execute the following command to run the program:
+   ./wiretap --open .pcap file
+
+4. Once the file is generated, appropriate message will be printed at console. In case of any error, the program will be terminated
+   with appropriate error messages.
+
+
+
